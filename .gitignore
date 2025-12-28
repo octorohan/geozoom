@@ -1,0 +1,74 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# =========================
+# Jupyter (if any)
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data (DO NOT COMMIT)
+# =========================
+data/
+tmp_sen2naip/
+outputs/
+
+# =========================
+# Models / Artifacts
+# =========================
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# =========================
+# Training / Logs
+# =========================
+logs/
+runs/
+*.log
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# ONNX / Torch cache
+# =========================
+.cache/
+torch_cache/
+
+# =========================
+# Evaluation outputs
+# =========================
+results/
+metrics.json
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar
+*.tar.gz
