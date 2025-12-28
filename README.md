@@ -1,6 +1,3 @@
-Here is the content converted into Markdown format for your `README.md` file, preserving every word and the original formatting exactly as requested.
-
-```markdown
 # GeoZoom
 
 A minimal research-oriented pipeline for **true paired satellite → aerial super-resolution** using a conditional GAN with **spectral consistency constraints (NDVI)**.
@@ -185,7 +182,7 @@ Output:
 
 ## Project Structure
 
-```
+
 geozoom/
 ├─ src/
 │  ├─ preprocessing/
